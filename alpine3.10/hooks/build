@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker build -t vavyskov/apache:alpine3.10 .
+docker push vavyskov/apache:alpine3.10
